@@ -1,5 +1,24 @@
 .home
-     height: 690px
+     height: 660px
      background: #eff0f2
 .c-home
+     grid-column-start: 2
+     display: grid
+     grid-template-rows: repeat(11,1fr) 
+     grid-template-columns: 1fr
+.c-home__title     
+     grid-row-start: 5
+     grid-row-end: 7
+     margin: 0 auto
+     text-align: center
+     font-size: 40px
+     color: grey
+     font-weight: bold
+.c-home__btn
+     margin: 0 auto
+     grid-row-start: 8
+     width: 200px
+     font-size: 20px
+.c-home__img
+     grid-row-start: 9
      grid-column-start: 2

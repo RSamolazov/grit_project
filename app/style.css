@@ -1,3 +1,48 @@
+body {
+  margin: 0; }
+
+@font-face {
+  font-family: monbold;
+  src: url(../../fonts/Montserrat-Bold.ttf); }
+
+.wrap {
+  width: 1450px;
+  margin: 0 auto; }
+
+.g-position--grid {
+  display: grid;
+  grid-template-columns: 135px 1fr 145px;
+  grid-column-gap: 10px; }
+
+.home {
+  height: 660px;
+  background: #eff0f2; }
+
+.c-home {
+  grid-column-start: 2;
+  display: grid;
+  grid-template-rows: repeat(11, 1fr);
+  grid-template-columns: 1fr; }
+
+.c-home__title {
+  grid-row-start: 5;
+  grid-row-end: 7;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 40px;
+  color: grey;
+  font-weight: bold; }
+
+.c-home__btn {
+  margin: 0 auto;
+  grid-row-start: 8;
+  width: 200px;
+  font-size: 20px; }
+
+.c-home__img {
+  grid-row-start: 9;
+  grid-column-start: 2; }
+
 .header {
   grid-column-start: 2;
   height: 110px;
@@ -23,29 +68,6 @@
 .header__title--blue {
   color: #66ffcc;
   font-size: 28px; }
-
-.home {
-  height: 690px;
-  background: #eff0f2; }
-
-.c-home {
-  grid-column-start: 2; }
-
-body {
-  margin: 0; }
-
-@font-face {
-  font-family: monbold;
-  src: url(../../fonts/Montserrat-Bold.ttf); }
-
-.wrap {
-  width: 1450px;
-  margin: 0 auto; }
-
-.g-position--grid {
-  display: grid;
-  grid-template-columns: 135px 1fr 145px;
-  grid-column-gap: 10px; }
 
 .g-menu-logo {
   align-self: flex-end;
